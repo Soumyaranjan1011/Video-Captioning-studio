@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    image: video-captioning-studio:latest
+    container_name: video-captioning-studio
+    ports:
+      - "8000:8000"
+    env_file:
+      - backend/.env
+    volumes:
+      - videocap-data:/app/data
+
+volumes:
+  videocap-data:
