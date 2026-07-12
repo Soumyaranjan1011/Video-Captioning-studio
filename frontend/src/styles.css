@@ -116,7 +116,7 @@ h2, h3 { font-family: var(--font-title); font-weight: 400; }
 .home { text-align: center; }
 .home h1 {
   font-size: 5rem;
-  margin-top: -65px;      /* Moves the heading up */
+  margin-top: -25px;      /* Moves the heading up */
   margin-bottom: 35px;
   color: #ffffff;
   line-height: 1.15;
