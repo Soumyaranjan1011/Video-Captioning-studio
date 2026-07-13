@@ -232,14 +232,4 @@ the app.
   the left-hand side of `"8000:8000"` in `docker-compose.yml` (e.g.
   `"9000:8000"`) and open that port instead.
 
-## Where to extend
 
-- **Timestamped captions:** ask Gemini to return `{start, end, text}`
-  segments per style so captions follow the frames instead of showing one
-  persistent caption.
-- **Postgres:** change `DATABASE_URL` in `config.py`.
-- **Real job queue:** swap the background task for Celery + Redis for
-  concurrent processing under load.
-- **Cloud storage:** move the `data/` folder to S3-style storage for
-  deployment.
-- **Auth + per-user archives.**
